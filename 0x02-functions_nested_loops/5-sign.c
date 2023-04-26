@@ -2,16 +2,15 @@
 /**
  * print_sign - Entry point
  *
- * Description : 'The programm prints the sign of an entered number'
- * @n: The number to be checked int
+ * Description: 'programm that checks an entered number's sign'
+ * @n: The number entered to be checked
  *
- * Return : 1 for postivie num, -1 for negative num and 0 for anything else
+ * Return:1 if positve, -1 if negative and 0 elswhere
  */
 
 int print_sign(int n)
 
 {
-
 if (n > 0)
 {
 _putchar(43);
